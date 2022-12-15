@@ -1,0 +1,87 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-12-15T06:20:45.559Z",
+    "end": "2022-12-15T06:20:52.603Z",
+    "duration": 7044,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "24041654-77aa-4904-b3ec-b5f3de5e660f",
+      "title": "",
+      "fullFile": "cypress/integration/cart.ts",
+      "file": "cypress/integration/cart.ts",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "Test Cart Page",
+          "fullTitle": "Test Cart Page",
+          "timedOut": null,
+          "duration": 4997,
+          "state": "passed",
+          "speed": "fast",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "loginPage.login(URL, 'standard_user', 'secret_sauce');\nloginPage.assertLogin();\ncartPage.cartPage();",
+          "err": {},
+          "uuid": "69673dbd-827a-4bf4-9cd7-1921183c525d",
+          "parentUUID": "24041654-77aa-4904-b3ec-b5f3de5e660f",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [
+        "69673dbd-827a-4bf4-9cd7-1921183c525d"
+      ],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 4997,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "chart": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportDir": "cypress/reports"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
